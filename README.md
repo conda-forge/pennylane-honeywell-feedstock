@@ -1,11 +1,11 @@
-About pennylane-honeywell
-=========================
+About pennylane-honeywell-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pennylane-honeywell-feedstock/blob/main/LICENSE.txt)
 
 Home: http://xanadu.ai
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pennylane-honeywell-feedstock/blob/main/LICENSE.txt)
 
 Summary: The PennyLane-Honeywell plugin integrates Honeywell Quantum Solutions' ion-trap
 quantum computing hardware with with PennyLane's quantum machine learning capabilities.

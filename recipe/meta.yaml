@@ -1,5 +1,5 @@
 {% set name = "pennylane-honeywell" %}
-{% set version = "0.23.0" %}
+{% set version = "0.30.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PennyLaneAI/pennylane-honeywell/archive/v{{ version }}.tar.gz
-  sha256: 6ff37c62e91e3d86aad637a6111b0b1f742115bd0008a6cc56dc28eb4bb3d5a4
+  sha256: 1641fae0f1e3e14010a88ba461928bdd1868dba170d1bd97ea72a6a23397d284
 
 build:
   noarch: python
@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - pennylane >=0.23
+    - pennylane >=0.30
     - pyjwt
-    - python >=3.6
+    - python >=3.8
     - requests
     - toml
 

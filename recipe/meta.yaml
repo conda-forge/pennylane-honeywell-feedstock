@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
     - pennylane >=0.30
     - pyjwt
-    - python >=3.8
+    - python >=3.9
     - requests
     - toml
 

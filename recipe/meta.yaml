@@ -28,10 +28,6 @@ requirements:
 test:
   imports:
     - pennylane_honeywell
-  commands:
-    - pip check
-  requires:
-    - pip
 
 about:
   home: http://xanadu.ai

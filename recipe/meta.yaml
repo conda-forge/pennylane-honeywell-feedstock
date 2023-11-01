@@ -24,6 +24,7 @@ requirements:
     - python >=3.9
     - requests
     - toml
+    - setuptools
 
 test:
   imports:

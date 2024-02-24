@@ -1,5 +1,5 @@
 {% set name = "pennylane-honeywell" %}
-{% set version = "0.34.0" %}
+{% set version = "0.34.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PennyLaneAI/pennylane-honeywell/archive/v{{ version }}.tar.gz
-  sha256: 2d993a3850791a9d4c0ebb316effa070b39e362217ba35de5ca01ad56df0ed1a
+  sha256: aae3a418b3d331b4bfb2e8b766bdd239ebf825c326477ecb597411c24b93fabf
 
 build:
   noarch: python

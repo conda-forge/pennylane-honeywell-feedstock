@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.9
   run:
-    - pennylane >=0.30
+    - pennylane >=0.30,<0.35
     - pyjwt
     - python >=3.9
     - requests

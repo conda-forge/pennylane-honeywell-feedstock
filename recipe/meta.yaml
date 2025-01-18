@@ -12,21 +12,23 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
   run:
     - pennylane >=0.30,<0.35
     - pyjwt
-    - python >=3.9
+    - python >={{ python_min }}
     - requests
     - toml
     - setuptools
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pennylane_honeywell
 
